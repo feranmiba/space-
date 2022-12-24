@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+}
+
+header {
+  background-image: url(./starter-code/assets/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-position: center;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0% auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15rem;
+  width: 100%;
+  padding: 0 9rem;
+  z-index: 100;
+}
+
+.nav__links {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  margin-right: -7%;
+  width: 55%;
+  padding: 30px 5px 30px 10px;
+  background-color: rgba(1, 0, 0, 0.792);
+}
+.nav__item {
+  margin-left: 3rem;
+  display: inline-block;
+}
+.nav__link {
+  text-decoration: none;
+  color: rgb(241, 211, 211);
+}
+.nav__link:hover,
+.nav__link:active {
+  color: white;
+  text-decoration: underline;
+}
+.pick {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: -15%;
+  width: 15%;
+  padding: 10px 5px 10px 10px;
+  background-color: rgba(1, 0, 0, 0.792);
+  color: rgb(241, 211, 211);
+}
+.be {
+  text-decoration: none;
+  color: rgb(241, 211, 211);
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 15rem;
+  height: 50rem;
+}
+.want {
+  width: 30%;
+  font-size: 16.5px;
+  color: rgb(247, 197, 197);
+}
+.eur {
+  line-height: 5%;
+  font-size: 38px;
+  font-weight: 50;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+.crews {
+  height: 500px;
+}
+.fe {
+  margin-top: 10%;
+  margin-left: -10%;
+  width: 20%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3mm;
+  background-color: rgba(1, 0, 0, 0.792);
+}
+.th,
+.th1,
+.th2 {
+  text-transform: uppercase;
+  list-style: none;
+  margin-top: 10%;
+  font-size: 15px;
+  color: hsl(0, 0%, 100%);
+}
+.hidden {
+  display: none;
+}
+.hamburger {
+  display: none;
+}
+.closes {
+  display: none;
+}

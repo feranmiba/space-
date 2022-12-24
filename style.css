@@ -1,0 +1,106 @@
+/*rgba(255, 255, 255, 0.8) whitetransparent*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+}
+
+header {
+  background-image: url(./starter-code/assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-position: center;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0% auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15rem;
+  width: 100%;
+  padding: 0 9rem;
+  z-index: 100;
+}
+
+.nav__links {
+  overflow: hidden;
+  transition: height 300ms linear;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  margin-right: -7%;
+  width: 55%;
+  padding: 30px 5px 30px 10px;
+  background-color: rgba(1, 0, 0, 0.792);
+}
+.nav__item {
+  margin-left: 3rem;
+  display: inline-block;
+}
+.nav__link {
+  text-decoration: none;
+  color: rgb(241, 211, 211);
+}
+.nav__link:hover,
+.nav__link:active {
+  color: white;
+  text-decoration: underline;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 15rem;
+  height: 50rem;
+}
+.want {
+  width: 30%;
+  font-size: 16.5px;
+  color: rgb(247, 197, 197);
+}
+.str {
+  font-size: 80px;
+  color: white;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 50;
+}
+.ex {
+  width: 100%;
+  font-size: 28px;
+  text-transform: uppercase;
+  padding: 80px 35px 80px 35px;
+  background-color: white;
+  border-radius: 80mm;
+  text-decoration: none;
+  color: rgba(1, 0, 0, 0.792);
+}
+.hamburger {
+  display: none;
+}
+.close {
+  display: none;
+}

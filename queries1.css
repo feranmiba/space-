@@ -1,0 +1,157 @@
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+  .nav {
+    padding: 0 5rem;
+  }
+  .nav__links {
+    font-size: 16px;
+    margin-right: -2%;
+    width: 60%;
+    padding: 30px 2px 30px 5px;
+  }
+  .picke {
+    font-size: 13px;
+    margin-left: -12%;
+    width: 22%;
+  }
+  .them,
+  .them1,
+  .them2,
+  .them3 {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+  }
+  .eur {
+    font-size: 50px;
+  }
+  .want {
+    width: 40%;
+    font-size: 14px;
+  }
+  .spac {
+    font-size: 14px;
+    width: 80%;
+    padding: 0 1rem;
+  }
+  .space {
+    height: 50rem;
+    padding: 0 5rem;
+  }
+}
+
+/*small tablet to big tablet:from 768px to1023px*/
+@media only screen and (max-width: 1023px) {
+  header {
+    background-image: url(./starter-code/assets/destination/background-destination-tablet.jpg);
+  }
+
+  .nav {
+    padding: 0 4rem;
+  }
+  .nav__links {
+    font-size: 14.5px;
+    margin-right: -3%;
+    width: 70%;
+    padding: 30px 2px 30px 5px;
+  }
+  .want {
+    width: 50%;
+    font-size: 14.5px;
+  }
+  .str {
+    font-size: 60px;
+    font-weight: 10;
+  }
+  .space {
+    padding: 0 2rem;
+    height: 48rem;
+  }
+  .picke {
+    font-size: 12px;
+    margin-left: -9%;
+    width: 26%;
+  }
+  .eur {
+    font-size: 40px;
+  }
+  .them,
+  .them1,
+  .them2,
+  .them3 {
+    font-size: 12px;
+  }
+  .feat {
+    margin-left: -2%;
+    width: 12%;
+  }
+}
+
+/*small phones to small tablets: from 481 to767px*/
+@media only screen and (max-width: 767px) {
+  header {
+    background-image: url(./starter-code/assets/destination/background-destination-mobile.jpg);
+  }
+
+  .nav {
+    padding: 0 2rem;
+  }
+  .nav__item {
+    margin-top: 5%;
+  }
+  .nav__links {
+    margin-top: 15%;
+    font-size: 13.5px;
+    margin-right: -10%;
+    width: 40%;
+    padding: 30px 2px 30px 5px;
+  }
+  .want {
+    width: 60%;
+    font-size: 13px;
+  }
+  .them,
+  .them1,
+  .them2,
+  .them3 {
+    font-size: 10px;
+  }
+  .feat {
+    margin-left: -60%;
+    width: 20%;
+  }
+  .picke {
+    font-size: 11px;
+    margin-left: -28%;
+    width: 40%;
+  }
+  .space {
+    padding: 0 2rem;
+    height: 50rem;
+  }
+  .closes {
+    display: inline-block;
+    position: absolute;
+    margin-top: -5%;
+  }
+  .eur {
+    font-size: 35px;
+  }
+  .want {
+    width: 150%;
+    font-size: 12px;
+  }
+  .spac {
+    font-size: 14px;
+    width: 100%;
+    padding: 0 4rem;
+  }
+  .logos {
+    width: 250px;
+  }
+  .hid {
+    display: none;
+  }
+  .hamburger {
+    display: inline-block;
+  }
+}

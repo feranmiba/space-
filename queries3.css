@@ -1,0 +1,160 @@
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+  .nav {
+    padding: 0 5rem;
+  }
+  .nav__links {
+    font-size: 16px;
+    margin-right: -2%;
+    width: 60%;
+    padding: 30px 2px 30px 5px;
+  }
+  .pick {
+    font-size: 13px;
+    margin-left: -12%;
+    width: 22%;
+  }
+  .the,
+  .the1,
+  .the2,
+  .the3 {
+    font-size: 12px;
+  }
+  .eur {
+    font-size: 40px;
+    line-height: 50%;
+  }
+  .want {
+    width: 40%;
+    font-size: 14px;
+  }
+  .spac {
+    font-size: 14px;
+    width: 80%;
+    padding: 0 1rem;
+  }
+  .space {
+    height: 45rem;
+    padding: 0 5rem;
+  }
+  .crews {
+    height: 380px;
+  }
+
+  /*small tablet to big tablet:from 768px to1023px*/
+  @media only screen and (max-width: 1023px) {
+    header {
+      background-image: url(./starter-code/assets/technology/background-technology-tablet.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      background-position: center;
+    }
+    .nav {
+      padding: 0 4rem;
+    }
+    .nav__links {
+      font-size: 14.5px;
+      margin-right: -3%;
+      width: 70%;
+      padding: 30px 2px 30px 5px;
+    }
+    .want {
+      width: 50%;
+      font-size: 14.5px;
+    }
+
+    .space {
+      padding: 0 2rem;
+      height: 48rem;
+    }
+    .pick {
+      font-size: 12px;
+      margin-left: -6%;
+      width: 22%;
+    }
+    .eur {
+      font-size: 40px;
+    }
+    .th,
+    .th1,
+    .th2 {
+      font-size: 12px;
+    }
+    .fe {
+      margin-left: -1%;
+      width: 15%;
+    }
+  }
+}
+
+/*small phones to small tablets: from 481 to767px*/
+@media only screen and (max-width: 767px) {
+  header {
+    background-image: url(./starter-code/assets/technology/background-technology-mobile.jpg);
+  }
+
+  .nav {
+    padding: 0 2rem;
+  }
+  .nav__item {
+    margin-top: 5%;
+  }
+  .nav__links {
+    margin-top: 15%;
+    font-size: 13.5px;
+    margin-right: -4%;
+    width: 40%;
+    padding: 30px 2px 30px 5px;
+  }
+  .want {
+    width: 60%;
+    font-size: 13px;
+  }
+  .th,
+  .th1,
+  .th2 {
+    font-size: 10px;
+  }
+  .fe {
+    margin-left: -20%;
+    width: 20%;
+  }
+  .pick {
+    font-size: 11px;
+    margin-left: -20%;
+    width: 35%;
+  }
+  .space {
+    padding: 0 2rem;
+    height: 45rem;
+  }
+  .closes {
+    display: inline-block;
+    position: absolute;
+    margin-top: -5%;
+  }
+  .eur {
+    font-size: 30px;
+  }
+  .want {
+    width: 150%;
+    font-size: 12px;
+  }
+  .spac {
+    font-size: 14px;
+    width: 150%;
+    padding: 0 4rem;
+  }
+  .crews {
+    width: 200px;
+    height: 300px;
+  }
+  .hid {
+    display: none;
+  }
+  .hamburger {
+    display: inline-block;
+  }
+}
